@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  html {
+    font-size: 16px;
+  }
+
+  .container {
+    max-width: 2056px;
+    margin: auto;
+    background-color: rgb(20, 33, 61);
+    height: 100vh;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header h1 {
+    color: rgb(255,255,255);
+    font-size: 36px;
+    text-align: center;
+    padding-top: 24px;
+  }
+
+  .calculator {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 36px;
+  }
+
+  .calculator  button {
+    width: 64px;
+    height: 64px;
+    font-size: 36px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(31,31,31);
+    border:none;
+    color: rgb(255,255,255);
+  }
+
+  .calculator  button:hover{
+    background-color: #FCA311;
+  }
+
+  .calculator h2 {
+    color: #FCA311;
+    font-size: 48px;
+    text-align: center;
+    padding-bottom: 24px;
+  }
+
+  main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .calculator .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #zero button {
+    width: 136px;
+  }
+
+  .calculator  button #zero {
+    height:10px;
+    width: 300px;
+  }
+
+  .row .calc-btn button {
+    padding: 10px 10px 10px 10px;
+  }
+
+  #result {
+    background-color:  rgb(255,255,255);
+    width: 272px;
+    height: 50px;
+    margin-left: 5px;
+    margin-bottom: 16px;
+    font-size: 28px;
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 20px;
+    color:black;
+}
+
+.card__background {
+    width: 100%;
+    height: 100%;
+    background-image: url('./img/background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
