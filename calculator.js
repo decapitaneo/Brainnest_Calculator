@@ -65,7 +65,7 @@ function calc() {
     }
 
     var result = operate(operator, number1, number2);
-    result = result.toFixed(4);
+    result = result.toFixed(2);
     
     document.getElementById('result').innerHTML = result;
 
