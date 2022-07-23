@@ -49,7 +49,7 @@ function addOperator(op) {
 function calc() {
 
     // Division by zero results in an error, so we prevent it
-    if (operator === '/' && number2 === 0) {
+    if (operator === '/' && number2 == 0) {
         document.getElementById('result').innerHTML = "Zero division error!";
         return; 
     }
